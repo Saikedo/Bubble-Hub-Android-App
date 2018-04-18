@@ -1,0 +1,218 @@
+<resources>
+    <string name="app_name">Bubble Hub</string>
+    <string name="On">On</string>
+    <string name="Off">Off</string>
+    <string name="ConnectToBubbleHub">Connect To Bubble Hub</string>
+    <string name="available_devices">Available Devices</string>
+    <string name="disconnect_from_bubble_hub">Disconnect From Bubble Hub</string>
+    <string name="bubble_hub_connection">BUBBLE HUB CONNECTION</string>
+    <string name="mix_mode">Mix Mode</string>
+    <string name="fade_split">FADE SPLIT</string>
+    <string name="fade">FADE</string>
+    <string name="lights">LIGHTS</string>
+    <string name="sleep">Sleep</string>
+    <string name="cancel_sleep">Cancel Sleep</string>
+    <string name="on">On</string>
+    <string name="startScanningCapitalLetters">START SCANNING</string>
+    <string name="stopScanningCapitalLetters">STOP SCANNING</string>
+    <string name="Bubble_Pillar">Bubble Pillar %1$d</string>
+    <string name="Bubble_Wall">Bubble Wall %1$d</string>
+    <string name="searching_for_bubble_devices">Searching For Bubble Devices</string>
+    <string name="custom_color">Custom Color</string>
+    <string name="custom">Custom</string>
+    <string name="BUBBLES">BUBBLES</string>
+    <string name="Small_Bubble">Small Bubble</string>
+    <string name="Small">Small</string>
+    <string name="Pillar_Bubble">Pillar Bubble</string>
+    <string name="Pillar">Pillar</string>
+    <string name="Pyramid_Bubble">Pyramid Bubble</string>
+    <string name="Pyramid">Pyramid</string>
+    <string name="LIGHTS">LIGHTS</string>
+    <string name="FADE_SPLIT">FADE SPLIT</string>
+    <string name="Rainbow_2">Rainbow 2</string>
+    <string name="Rainbow_1">Rainbow 1</string>
+    <string name="FADE">FADE</string>
+    <string name="SOUND">SOUND</string>
+    <string name="small_plus_big">Small + Big</string>
+    <string name="image_button_for_play_stop">imageButton for play/stop</string>
+    <string name="image_button_for_volume_down">imageButton for volume down</string>
+    <string name="image_button_for_sound_on_off">imageButton for sound on/off</string>
+    <string name="image_button_for_sound_next">imageButton for sound next</string>
+    <string name="image_button_for_volume_up">imageButton for volume up</string>
+    <string name="image_button_for_mute">imageButton for mute</string>
+    <string name="image_button_for_sound_previous">imageButton for sound previous</string>
+    <string name="image_button_for_bluetooth_mode">imageButton for bluetooth mode</string>
+    <string name="image_button_sd_card_mode">imageButton sd card mode</string>
+    <string name="image_button_for_usb_mode">imageButton for usb mode</string>
+    <string name="image_button_for_aux_mode">imageButton for aux mode</string>
+    <string name="Big_Bubble">Big Bubble</string>
+    <string name="bluetooth_type_image">bluetooth type image</string>
+    <string name="report_bugs_or_leave_feedback_and_suggestions">Report bugs/leave feedback and suggestions</string>
+    <string name="not_now">Not now</string>
+    <string name="submit">Submit</string>
+    <string name="number_of_attachments">Number of attachments: %1$d</string>
+    <string name="attach_images">Attach Images</string>
+    <string name="feedback">Feedback</string>
+    <string name="close">Close</string>
+    <string name="main_location_permission_warning">This application requires location permissions in order to function. Please grant location permission.</string>
+    <string name="grant_location_permissions">Grant location permissions</string>
+    <string name="brightness">BRIGHTNESS</string>
+    <string name="brightnessPercentage"> %1$d %%</string>
+    <string name="centerpiece">Centerpiece %1$d</string>
+    <string name="help">Help</string>
+    <string name="help_page_not_found"><![CDATA[<h2><font color="red">Help Page Not Found.</font></h4> ]]></string>
+
+    <string name="help_page_info">
+     <![CDATA[
+     <p>
+     <b>Connection Issues: </b> Please follow these steps if you are having connection issues such as devices not showing up on the main screen.<br/> <br/>
+     <b>1.</b> Make sure that the phone Bluetooth is turned on. <br/> <br/>
+     <b>2.</b> Make sure that the device is turned on and is in Bluetooth range of the phone. <br/> <br/>
+     <b>3.</b> Make sure that the device is not connected to another phone. <br/> <br/>
+     <b>4.</b> Make sure the manual button on the device is not turned on. <br/> <br/>
+     <b>5.</b> Make sure you granted location permissions on your phone when the application asked for it.  <br/> <br/>
+     <b>6.</b> Try to restart your phone and the device that you are trying to connect. Some of the devices will have a switch on them.
+     If your device does not have a switch, simply unplug its power cable and plug it back after 5 seconds.
+      <b> Please see location permission paragraph below for more information.</b> <br/> <br/>
+     </p>
+     <p>
+     <b> Location Permissions: </b> This application might ask the user to grant access to device`s location on some of the newer Android phones.
+     This permission is necessary to access the Bluetooth capabilities on some of the phones. This application does not collect any user data and
+      we do not share or collect any location-based information from the phone. The permission is simply necessary for the application to be able
+      to connect to the Bubble devices.
+     </p>
+     ]]>
+ </string>
+
+    <string name="bubble_pillar_help_page_info">
+     <![CDATA[
+     <h2>Bubble Pillar Buttons Explanation</h2>
+
+     <h4><font color="blue">Control Buttons</font></h4>
+     <p>
+         <b> On/Off: </b> Turns the system on or off. <br/><br/>
+
+         <b> Sleep: </b> Starts the sleep timer. Bubble pillar will shut down in 30 seconds unless you turn off the system
+         or press the <b>Cancel Sleep</b> button. The timer that appears to the left of sleep button indicates when Centerpieces
+         will turn off.
+     </p>
+
+     <h4><font color="blue">Lights Buttons</font></h4>
+     <p>
+         <b> Fade: </b> Bubble pillar lights switch to fade mode where both top and bottom lights will have the same color.
+         The lights will continually fade from one color to another in a predetermined manner. <br/><br/>
+
+         <b> Fade Split: </b> Bubble pillar lights switch to fade split mode where the top and bottom lights will have different colors.
+         Top and bottom lights will continually fade from one color to another in a predetermined manner. <br/><br/>
+
+         <b> Custom Color: </b> You can choose your desired color from a color wheel and Bubble pillar will set both top and bottom lights to your desired color.
+          <b>NOTE: You must either let go of the color wheel or hold your finger at the same color for a short period of time
+          in order to send the command to bubble pillar to change to your desired color.</b> <br/><br/>
+
+         <b> Mix Mode: </b> Periodically switches between fade and fade split lights modes. <br/><br/>
+     </p>
+
+     <h4><font color="blue">Bubble Hub Connection Button</font></h4>
+     <p>
+         Some of the other Bubble products(bubble wall for example) will send radio signals to all other Bubble products in order to make
+         controlling of multiple Bubble products easier.Press the <b>Disconnect From Bubble Hub</b> button if you want to prevent some particular
+         Bubble Pillar from listening to radio transmissions from other Bubble products.
+     </p>
+
+     ]]>
+ </string>
+
+    <string name="bubble_wall_help_page_info">
+     <![CDATA[
+     <h2>Bubble Pillar Buttons Explanation</h2>
+
+     <h4><font color="blue">Control Buttons</font></h4>
+     <p>
+         <b> On/Off: </b> Turns the system on or off. <br/><br/>
+
+         <b> Sleep: </b> Starts the sleep timer. Bubble wall will shut down in 30 seconds unless you turn off the system
+         or press the <b>Cancel Sleep</b> button. The timer that appears to the left of sleep button indicates when Centerpieces
+         will turn off.
+     </p>
+
+       <h4><font color="blue">Bubble Buttons</font></h4>
+     <p>
+         <b> Small Bubbles: </b> Use only small bubbles <br/><br/>
+
+         <b> Big Bubbles: </b> Use only big bubbles <br/><br/>
+
+         <b> Small + Big: </b> Use small and big bubbles simultaneously. <br/><br/>
+
+         <b> Pyramid Bubble: </b> Produce various shapes by using a combination of small and big bubbles. <br/><br/>
+
+         <b> Pillar Bubble: </b> Switches bubble mode to produce various shapes by using a combination of small and big bubbles.
+          <b>NOTE: You might hear the water overflowing into the water reservoir depending on the height of the water inside the panel.
+           This is a normal behavior as long as the alarm is not turning on or you are not seeing any water leakage.</b><br/><br/>
+
+         <b> Mix Mode: </b> Periodically switches through all bubble modes. <br/><br/>
+
+     </p>
+
+     <h4><font color="blue">Lights Buttons</font></h4>
+     <p>
+         <b> Rainbow 1: </b> Bubble Wall lights switch to rainbow 1 mode. <br/><br/>
+
+         <b> Rainbow 2: </b> Bubble Wall lights switch to rainbow 2 mode. <br/><br/>
+
+         <b> Fade: </b> Bubble Wall lights switch to fade mode. The lights will continually fade from one color to another in a predetermined manner. <br/><br/>
+
+         <b> Fade Split: </b> Bubble Wall lights switch to fade split mode, where top and bottom lights will have different colors.
+         The lights will continually fade from one color to another in a predetermined manner.. <br/><br/>
+
+         <b> Custom Color: </b> You can choose your desired color from the color wheel and Bubble Wall will set the lights to your desired color.
+          <b>NOTE: You must either let go of the color wheel or hold your finger at the same color for a short period of time
+         in order to send the command to Bubble Wall to change to your desired color.</b> <br/><br/>
+
+         <b> Mix Mode: </b> Periodically switches through all the lights modes. <br/><br/>
+     </p>
+
+     <h4><font color="blue">Audio Control Buttons</font></h4>
+     <p>
+         Audio controls should mostly be self-explanatory with one exception. If you choose the USB mode, SD Card Mode or
+         AUX mode without having USB, SD Card or Aux cable connected to the speaker, the speaker might switch to an FM radio mode.
+         You can either provide the necessary connections for the mode you want to use or switch to Bluetooth mode where you can
+         pair your phone with the speaker and stream your desired content to the speaker.
+     </p>
+     ]]>
+ </string>
+
+    <string name="bubble_centerpiece_help_page_info">
+     <![CDATA[
+     <h2>Bubble Pillar Buttons Explanation</h2>
+
+     <h4><font color="blue">Control Buttons</font></h4>
+     <p>
+         <b> On/Off: </b> Turns the system on or off. <br/><br/>
+
+         <b> Sleep: </b> Starts the sleep timer. Centerpieces will shut down in 30 seconds unless you turn off the system
+         or press the <b>Cancel Sleep</b> button. The timer that appears to the left of sleep button indicates when Centerpieces
+         will turn off.
+     </p>
+
+     <h4><font color="blue">Lights Buttons</font></h4>
+     <p>
+         <b> Fade: </b> Centerpieces lights switch to fade mode. The lights will continually fade from one color to another in a predetermined manner.<br/><br/>
+
+         <b> Custom Color: </b> You can choose your desired color from a color wheel and the centerpieces will set the lights
+         to your desired color. <b>NOTE: You must either let go of the color wheel or hold your finger at the same color for a short period of time
+          in order to send the command to the centerpieces and change the lights to your desired color.</b>
+     </p>
+
+     <h4><font color="blue">Brightness Slider</font></h4>
+     <p>
+        With brightness slider, you can control the brightness of the centerpieces. Setting the brightness slider to 0 will keep the
+        Centerpieces bubbles running but will turn off the lights. <b>NOTE: You must either let go of the brightness slider or hold your finger
+        at the same brightness level for a short period of time in order to send the command to centerpieces to change to
+        your desired brightness.</b>
+     </p>
+
+     ]]>
+ </string>
+
+
+</resources>

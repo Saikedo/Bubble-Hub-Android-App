@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="net.california_design.bubble_hub.RemoteControlBubbleCenterpiece"
+    android:background="@drawable/background_gradient_color_light_blue">
+
+    <LinearLayout
+        android:id="@+id/linear_layout_control_buttons"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        app:layout_constraintBottom_toTopOf="@+id/horizontal_guideline_20"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/button_on_off"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/button_background_gradient_green_black_border"
+            android:text="@string/on"
+            android:textSize="18sp" />
+
+        <fragment
+            android:id="@+id/countDownTimerFragment"
+            android:name="net.california_design.bubble_hub.CountDownTimerFragment"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            tools:layout="@layout/count_down_timer_fragment" />
+
+        <Button
+            android:id="@+id/button_sleep"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/button_background_gradient_yellow_black_border"
+            android:text="@string/sleep"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="@+id/constraint_layout_sleep_button_and_timer"
+            app:layout_constraintEnd_toEndOf="@+id/constraint_layout_sleep_button_and_timer"
+            app:layout_constraintStart_toStartOf="@+id/constraint_layout_sleep_button_and_timer"
+            app:layout_constraintTop_toTopOf="@+id/constraint_layout_sleep_button_and_timer" />
+
+    </LinearLayout>
+
+    <TableLayout
+        android:id="@+id/activity_remote_control_table_layout_lights_buttons_id"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/horizontal_guideline_70"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/horizontal_guideline_20">
+
+        <TableRow
+            android:id="@+id/activity_remote_control_table_row_sound_text_id"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0">
+
+            <View
+                android:id="@+id/line1"
+                android:layout_width="0dp"
+                android:layout_height="2dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="#FF0000"
+                app:layout_constraintHorizontal_bias="0.0" />
+
+            <TextView
+                android:id="@+id/activity_remote_control_text_lights_id"
+                style="@style/CustomFontStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0"
+                android:gravity="center"
+                android:paddingEnd="8dp"
+                android:paddingStart="8dp"
+                android:text="@string/LIGHTS"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <View
+                android:id="@+id/line2"
+                android:layout_width="0dp"
+                android:layout_height="2dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="#FF0000"
+                app:layout_constraintHorizontal_bias="0.0" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="4dp"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/button_lights_fade"
+                style=""
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_background_gradient_light_blue_black_border"
+                android:text="@string/fade"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/button_lights_custom_color"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_background_gradient_light_blue_black_border"
+                android:text="@string/custom_color"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+    </TableLayout>
+
+    <TableLayout
+        android:id="@+id/activity_remote_control_table_layout_bubble_hub_connection_buttons_id"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/horizontal_guideline_70">
+
+        <TableRow
+            android:id="@+id/activity_remote_control_table_row_bubble_hub_connection_text_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <View
+                android:id="@+id/line3"
+                android:layout_width="0dp"
+                android:layout_height="2dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="#FF0000"
+                app:layout_constraintHorizontal_bias="0.0" />
+
+            <TextView
+                android:id="@+id/activity_remote_control_text_brightness_id"
+                style="@style/CustomFontStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0"
+                android:gravity="center"
+                android:paddingEnd="8dp"
+                android:paddingStart="8dp"
+                android:text="@string/brightness"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/activity_remote_control_text_brightness_percentage_id"
+                style="@style/CustomFontStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="4dp"
+                android:layout_weight="0"
+                android:gravity="center"
+                android:paddingEnd="8dp"
+                android:paddingStart="4dp"
+                android:text="@string/brightnessPercentage"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#FF0000"
+                android:textSize="20sp" />
+
+            <View
+                android:id="@+id/line4"
+                android:layout_width="0dp"
+                android:layout_height="2dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="#FF0000"
+                app:layout_constraintHorizontal_bias="0.0" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <SeekBar
+                android:id="@+id/remote_control_centerpiece_brightness_slider"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:max="255"
+                android:maxHeight="10dp"
+                android:progress="255"
+                android:progressDrawable="@drawable/style_seek_bar_body_gradient"
+                android:thumb="@drawable/shape_seek_bar_thumb" />
+
+        </TableRow>
+
+    </TableLayout>
+
+
+    <android.support.constraint.Guideline
+        android:id="@+id/horizontal_guideline_20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.2" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/horizontal_guideline_70"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.7"
+        tools:layout_editor_absoluteY="422dp"
+        tools:layout_editor_absoluteX="0dp" />
+
+</android.support.constraint.ConstraintLayout>
