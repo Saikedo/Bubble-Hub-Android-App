@@ -114,6 +114,7 @@ public class MainActivity extends AppCompatActivity {
         if(BluetoothAdapter.getDefaultAdapter() == null) {
             Toast.makeText(getApplicationContext(), "Failed to access the phone's Bluetooth device.", Toast.LENGTH_LONG).show();
             finish();
+            return;
         }
 
         checkLocationAndBluetoothPermissions();
@@ -333,7 +334,10 @@ public class MainActivity extends AppCompatActivity {
 
 
     private void stopScanningForDevices() {
-        mScanSubscription.unsubscribe();
+        if(BluetoothAdapter.getDefaultAdapter() != null){
+            mScanSubscription.unsubscribe();
+        }
+
 
         mBtDeviceObjectList.clear();
         mBtDeviceAddress.clear();
